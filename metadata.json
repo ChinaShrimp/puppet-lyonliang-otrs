@@ -8,7 +8,10 @@
   "project_page": "https://github.com/ChinaShrimp/puppet-lyonliang-otrs",
   "issues_url": "https://github.com/ChinaShrimp/puppet-lyonliang-otrs/issues",
   "dependencies": [
-    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"},
+    {"name":"puppetlabs-vcsrepo"},
+    {"name":"puppetlabs-apache"}
+    {"name":"puppetlabs-mysql"}
   ],
   "data_provider": null
 }
